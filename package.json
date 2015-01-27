@@ -1,0 +1,56 @@
+{
+  "name": "comply",
+  "version": "1.0.2",
+  "description": "Role/Privilege based authentication/authorization",
+  "author": {
+    "name": "Rob Higgins",
+    "email": "higginsrob@gmail.com"
+  },
+  "main": "index.js",
+  "bin": {
+    "comply": "./bin/shell.sh"
+  },
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/higginsrob/comply.git"
+  },
+  "keywords": [
+    "role",
+    "roles",
+    "privilege",
+    "privileges",
+    "authorization",
+    "authentication",
+    "admin",
+    "administration"
+  ],
+  "engines": {
+    "iojs": ">=1.0.0",
+    "node": ">=0.12.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bcrypt-nodejs": "0.0.3",
+    "cliff": "^0.1.10",
+    "co": "^4.1.0",
+    "co-body": "^1.0.0",
+    "co-foreach": "^1.0.6",
+    "colors": "^1.0.3",
+    "debug": "^2.1.1",
+    "koa-body": "^0.4.0",
+    "minimist": "^1.1.0",
+    "mongoose": "^3.8.21",
+    "mongoose-unique-validator": "^0.4.1",
+    "promise": "^6.1.0",
+    "string-argv": "0.0.1",
+    "validator": "^3.28.0"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.1.0",
+    "mocha": "^2.1.0"
+  },
+  "license": "MIT"
+}
